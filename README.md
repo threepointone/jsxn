@@ -5,7 +5,7 @@ jsxn
 
 jsx notation for json trees
 
-`npm install @riotvoice/jsxn --save`
+`npm install @threepointone/jsxn --save`
 
 jsxn is a natural fit for describing hierarchical "trees" of nodes made of `type`/`props`/`children`, such as -
 

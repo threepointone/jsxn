@@ -1,0 +1,8 @@
+{
+  "extends": "eslint-config-rackt",
+  "rules": {
+    "quotes": 0,
+    "valid-jsdoc": 2,
+    "jsx-quotes": 0
+  }
+}

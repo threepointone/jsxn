@@ -1,0 +1,25 @@
+{
+  "name": "jsxn",
+  "version": "1.0.0",
+  "description": "jsx notation for trees of json",
+  "main": "index.js",
+  "scripts": {
+    "parser": "pegjs --extra-options-file pegjs.config.json src/jsxn.pegjs src/parser.js ",
+    "sandbox": "babel-node sandbox.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "author": "Sunil Pai <threepointone@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^2.12.0",
+    "eslint-config-rackt": "^1.1.1",
+    "eslint-plugin-react": "^5.1.1",
+    "pegjs": "^0.9.0"
+  }
+}

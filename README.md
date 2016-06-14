@@ -77,6 +77,13 @@ console.log(parse(src))
 
 ```
 
+differences from xml
+---
+
+- jsxn has no namespaces, dtds, all that
+- you can write inline json, which I think is quite nice :)
+- jsxn generates regular js objects, not native xml nodes.  
+
 
 todo
 ---

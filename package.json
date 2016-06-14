@@ -1,8 +1,8 @@
 {
-  "name": "jsxn",
+  "name": "@threepointone/jsxn",
   "version": "1.0.0",
   "description": "jsx notation for trees of json",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "parser": "pegjs --extra-options-file pegjs.config.json src/jsxn.pegjs src/parser.js ",
     "sandbox": "babel-node sandbox.js",

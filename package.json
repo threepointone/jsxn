@@ -1,6 +1,6 @@
 {
   "name": "@threepointone/jsxn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jsx notation for trees of json",
   "main": "lib/index.js",
   "scripts": {

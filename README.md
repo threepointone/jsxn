@@ -25,7 +25,7 @@ jsxn is a natural fit for describing hierarchical "trees" of nodes made of `type
 
 // corresponds to -
 
-{
+[{
   type: 'carousel',
   props: {
     delay: 300,
@@ -53,7 +53,7 @@ jsxn is a natural fit for describing hierarchical "trees" of nodes made of `type
     },
     // ...
   ]
-}
+}]
 ```
 
 api
@@ -64,7 +64,7 @@ import { parse } from '@threepointone/jsxn'
 let src = `<test prop=123 o={x: 'abc'}/>`
 console.log(parse(src))
 /* ... becomes */
-{
+[{
   type: 'test',
   props: {
     prop: 123,
@@ -73,7 +73,7 @@ console.log(parse(src))
     }
   }
 
-}
+}]
 
 ```
 

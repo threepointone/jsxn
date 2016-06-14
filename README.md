@@ -59,7 +59,7 @@ jsxn is a natural fit for describing hierarchical "trees" of nodes made of `type
 api
 ---
 ```jsx
-import { parse } from 'jsxn'
+import { parse } from '@threepointone/jsxn'
 
 let src = `<test prop=123 o={x: 'abc'}/>`
 console.log(parse(src))
